@@ -2468,11 +2468,13 @@ li span {
 
 .warning-container {
 
-    text-align: center; /* Center text alignment */
+    text-align: center;
+
+    /* Center text alignment */
 
     padding: 20px; /* Padding around the container */
 
-    border: 2px solid #f5c6cb; /* Red border for emphasis */
+    border: 2px solid #e9eaeb;/* Red border for emphasis */
 
     background-color: #fff; /* White background for contrast */
 
@@ -2483,6 +2485,18 @@ li span {
 }
 
 
+
+.border-padding {
+
+  padding-left:15px; 
+
+  padding-right: 15px;
+
+  
+
+  
+
+}
 
 
 
@@ -2496,7 +2510,7 @@ li span {
 
         padding: 0.5em 1em;
 
-        background-color: #0ebac5;
+        background-color: #14B789;
 
         border: none;
 
@@ -2660,9 +2674,9 @@ li span {
 
 .show-popup {
 
-  padding: 18px 40px;
+  padding: 11px 24px;
 
-  background: #6e78ff;
+  background: #14B789;
 
   border: none;
 
@@ -2762,7 +2776,7 @@ li span {
 
   height: 45px;
 
-  background: #6e78ff;
+  background: #14B789;
 
   border-radius: 6px;
 
@@ -2796,4 +2810,3 @@ li span {
 
 
 
-	
