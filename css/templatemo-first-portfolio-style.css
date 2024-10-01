@@ -2810,3 +2810,46 @@ li span {
 
 
 
+flexz {
+
+  flex-wrap: wrap;
+
+  font-family: "Josefin Sans", sans-serif;
+
+  font-size: 20px;
+
+  margin: 13px 0 13px 0;
+
+  text-shadow: 0 0 20px black, 0 0 40px black;
+
+  background-image: linear-gradient(60deg, red, darkred,limegreen , green);
+
+  background-size: 200%;
+
+  background-position: 0;
+
+  animation: moveGradient 6s alternate infinite;
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+  padding-left: 20px ;
+
+  padding-right: 20px;
+
+  text-align: center;
+
+}
+
+@keyframes moveGradient {
+
+  50% {
+
+    background-position: 100%;
+
+}
+
+}
